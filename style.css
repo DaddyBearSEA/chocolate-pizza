@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+header{
+  outline: dotted 5px black;
+  height: 90px;
+  margin: 0 auto;
+  width: 960px;
+
+}
+
+header img{
+  float: left; 
+  margin-top: 25px;
+}
+
+header ul{
+  outline: dotted 2px orange;
+  float: right;
+  margin: 0;
+
+}
+header ul li{
+  float: left;
+
+}
+
+header img p{
+  width: 25%;
+  margin-top: -.5px;
+}
+
+
+main{
+  margin: 0 auto;
+  width: 960px;
+  outline: dotted 5px forestgreen;
+}
+
+h1{
+  font-size: x-large;
+  font-weight: bold;
+}
+
+
+section{
+  margin: 0 auto;
+  width: 960px;
+  outline: dotted 5px orangered;
+}
+
+#column1{
+  /* box-sizing: border-box; */
+  /* outline: dotted 10px red; */
+  margin: 10%;
+}
+
+#column2{
+  margin: 10%;
+  /* box-sizing: border-box; */
+  /* outline: dotted 10px rebeccapurple; */
+  text-align: right;
+}
+
+
+
+
+div {
+  margin: 0 auto;
+  width: 960px;
+  /* outline: dotted 5px paleturquoise; */
+}
+
+
+footer{
+  text-align: center;
+  margin: 0 auto;
+  width: 960px;
+  outline: dotted 5px blue;
+
+}
