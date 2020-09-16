@@ -1,6 +1,8 @@
 
 * {
   background-color: whitesmoke;
+  display: inline-flexbox;
+  flex-flow: column;
 
  
 }
@@ -9,21 +11,21 @@
 
 /*  Header  */
 header {
-  display: float;
-  outline: blueviolet 3px double;
-  font-family: 'Advent Pro', sans-serif;
-  color: grey;
-  font-size: thin;
-  font-size: xx-small;
-  outline: blue 2 dotted;
-
+  /* display: float; */
+  outline: blueviolet 10px double;
+ 
+}
+header img {
+  margin-top: 30px;
+ 
 }
 
 header p:nth-child(2){
   font-family: 'Pacifico', cursive;
   color: black;
   font-weight: bold;
-  font-size: x-large;
+  font-size: xx-large;
+  margin: auto;
 }
 
 header p:nth-child(3){
@@ -31,16 +33,20 @@ header p:nth-child(3){
   color: grey;
   font-size: thin;
   font-size: xx-small;
+  margin-left: 50px;
 
 }
 
-ul li{
+header ul li{
   float: right;
-  display: inline-block;
+  /* display: inline; */
   outline: dotted 5px blue;
   /* display: inline-block; */
 }
-
+header ul li:nth-child(7){
+  margin-left: 2px;
+  outline: red 2px solid;
+}
 
 /* Main section */
 main h1{
