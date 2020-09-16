@@ -1,0 +1,56 @@
+
+* {
+  background-color: whitesmoke;
+
+ 
+}
+/* htmlcheatsheet.com/css */
+
+
+/*  Header  */
+header {
+  display: float;
+  outline: blueviolet 3px double;
+  font-family: 'Advent Pro', sans-serif;
+  color: grey;
+  font-size: thin;
+  font-size: xx-small;
+  outline: blue 2 dotted;
+
+}
+
+header p:nth-child(2){
+  font-family: 'Pacifico', cursive;
+  color: black;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+header p:nth-child(3){
+  font-family: 'Advent Pro', sans-serif;
+  color: grey;
+  font-size: thin;
+  font-size: xx-small;
+
+}
+
+ul li{
+  float: right;
+  display: inline-block;
+  outline: dotted 5px blue;
+  /* display: inline-block; */
+}
+
+
+/* Main section */
+main h1{
+  font-family: 'Anton', sans-serif;
+}
+
+main p:nth-child(1){
+  font-family: 'Advent Pro', sans-serif;
+  color: grey;
+  font-size: thin;
+  font-size: xx-small;
+  outline: blue 2 dotted;
+}
