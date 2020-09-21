@@ -2,7 +2,7 @@
 * {
   background-color: whitesmoke;
   display: flexbox;
-  margin: auto;
+
   /* flex-flow: column; */
   
 
@@ -16,13 +16,14 @@
 /*         Header         */
 header{
  display: flexbox;
+ margin: 0px auto;
+ width: 960px;
 
   
 
 }
 
 #leftNav {
-  outline: 3px red dotted;
   margin-top: 50px;
   display: inline-flex;
 }
@@ -34,7 +35,9 @@ header p {
   display: inline-flex;
 
 }
-
+header img {
+  align-items: flex-start;
+}
 header p:nth-child(2){
   font-family: 'Pacifico', cursive;
   color: black;
@@ -58,34 +61,109 @@ header p:nth-child(3){
 }
 
 #icons{
-  outline: 3px Blue solid;
   float: right;
-  outline: dotted 5px blue;
   display: inline-flex;
   margin-top: -45px;
+  justify-content: space-around;
 
 }
 
  #icons li:nth-child(7){
-  margin-left: 3px;
-  outline: red 2px solid;
-  
+  margin-left: 10px;
+   
 }
 
-
+hr {
+  border-width: 10px;
+  border-image: url('./img/hr-img.png');
+  border-image: repeat;
+}
 
 
 
 
 /*        Main section        */
-main h1{
-  font-family: 'Anton', sans-serif;
+main {
+  margin: 0px auto;
+  width: 960px;
 }
 
-main p:nth-child(1){
+main h1{
+  font-family: 'Anton', sans-serif;
+  font-size: xx-large;
+  margin-top: 70px;
+ 
+}
+
+main p:nth-child(2){
   font-family: 'Advent Pro', sans-serif;
   color: grey;
   font-size: thin;
   font-size: xx-small;
-  outline: blue 2 dotted;
+ 
+}
+
+main p:nth-child(3){
+  float: right;
+  margin-top: -10px;
+}
+
+main img {
+  margin-left: 20px;
+  
+}
+
+.description {
+  font-family: 'Lusitana', serif;
+  /* outline: red 3px solid; */
+  text-align: justify;
+  padding: 10px;
+  text-indent: 20px;
+  line-height: 20px;
+  font-size: medium;
+
+}
+#receipe {
+  outline: 3px rgb(0, 255, 85) dashed;
+  margin: 0px auto;
+  width: 960px;
+  display: flexbox;
+  background-image: url('./img/list-bg.png');
+  justify-content: center;
+    
+}
+
+#columnOne {
+  position: relative;
+  outline: 3px blue dashed;
+  top: -200px;
+  background: transparent;
+  float: left;
+   
+}
+
+#columnTwo {
+  position: relative;
+  outline: violet 3px dashed;
+  top: -200px;
+  float: right;
+ 
+}
+
+#share {
+  outline: 3px pink dashed;
+  margin: 0px auto;
+  width: 960px;
+  
+}
+#share img  h1  p{
+  float: left;
+  flex: 1;
+  order: 1;
+}
+
+#share button{
+  float: right;
+  flex: 2;
+  order: 2;
 }
