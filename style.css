@@ -1,23 +1,38 @@
 
 * {
   background-color: whitesmoke;
-  display: inline-flexbox;
-  flex-flow: column;
+  display: flexbox;
+  margin: auto;
+  /* flex-flow: column; */
+  
 
  
 }
 /* htmlcheatsheet.com/css */
+/* flexbox cheatsheet https://yoksel.github.io/flex-cheatsheet/ */
 
 
-/*  Header  */
-header {
-  /* display: float; */
-  outline: blueviolet 10px double;
- 
+
+/*         Header         */
+header{
+ display: flexbox;
+
+  
+
 }
-header img {
-  margin-top: 30px;
- 
+
+#leftNav {
+  outline: 3px red dotted;
+  margin-top: 50px;
+  display: inline-flex;
+}
+
+
+
+header p {
+  flex-direction: column;
+  display: inline-flex;
+
 }
 
 header p:nth-child(2){
@@ -25,7 +40,10 @@ header p:nth-child(2){
   color: black;
   font-weight: bold;
   font-size: xx-large;
-  margin: auto;
+  /* margin: auto; */
+  order: 1;
+  flex: 1;
+
 }
 
 header p:nth-child(3){
@@ -33,22 +51,33 @@ header p:nth-child(3){
   color: grey;
   font-size: thin;
   font-size: xx-small;
-  margin-left: 50px;
+  margin: auto;
+  order: 2;
+  flex: 1;
 
 }
 
-header ul li{
+#icons{
+  outline: 3px Blue solid;
   float: right;
-  /* display: inline; */
   outline: dotted 5px blue;
-  /* display: inline-block; */
-}
-header ul li:nth-child(7){
-  margin-left: 2px;
-  outline: red 2px solid;
+  display: inline-flex;
+  margin-top: -45px;
+
 }
 
-/* Main section */
+ #icons li:nth-child(7){
+  margin-left: 3px;
+  outline: red 2px solid;
+  
+}
+
+
+
+
+
+
+/*        Main section        */
 main h1{
   font-family: 'Anton', sans-serif;
 }
