@@ -123,6 +123,8 @@ main img {
   font-size: medium;
 
 }
+/* overlap of notepad and reciepe */
+
 #receipe {
   outline: 3px rgb(0, 255, 85) dashed;
   margin: 0px auto;
@@ -134,36 +136,64 @@ main img {
 }
 
 #columnOne {
+  font-family: 'Grandstander', cursive;
   position: relative;
-  outline: 3px blue dashed;
-  top: -200px;
-  background: transparent;
+  /* outline: 3px blue dashed; */
+  top: -275px;
+  font-size: x-large;
+  font-weight: bold;
+  /* justify-content: space-evenly; */
+  line-height: 1.5em;
   float: left;
-   
+  z-index: 10;  
+  background-color: #FFFFFFFF);
+  margin-left: 25px;
 }
 
 #columnTwo {
+  font-family: 'Grandstander', cursive;
+  font-size: x-large;
+  font-weight: bold;
   position: relative;
   outline: violet 3px dashed;
-  top: -200px;
+  top: -275px;
   float: right;
+  line-height: 1.5em;
+  margin-right: 20px;
  
 }
+/* about and share */
 
 #share {
   outline: 3px pink dashed;
   margin: 0px auto;
   width: 960px;
+  display: flexbox;
   
 }
-#share img  h1  p{
+#share img {
   float: left;
   flex: 1;
   order: 1;
+}
+#share h1 {
+  font-size: x-large;
+  font-weight: bold;
 }
 
 #share button{
   float: right;
   flex: 2;
   order: 2;
+}
+
+/* footer information */
+
+footer{
+  margin-top: 50px;
+  outline: tomato 3px solid;
+  margin-bottom: 150px;
+  align-content: center;
+  display: inline;
+  align-content: center;
 }
