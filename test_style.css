@@ -1,0 +1,91 @@
+
+* {
+  background-color: whitesmoke;
+  /* display: inline-flexbox; */
+  /* flex-flow: column; */
+  
+
+ 
+}
+/* htmlcheatsheet.com/css */
+
+
+/*  Header  */
+header {
+  outline: blueviolet 10px double;
+  width: 100% auto;
+  display: flexbox;
+ 
+}
+header img {
+  margin-top: 30px;
+  order: 1;
+  flex: 1;
+}
+
+header p:nth-child(2){
+  font-family: 'Pacifico', cursive;
+  color: black;
+  font-weight: bold;
+  font-size: xx-large;
+  margin: auto;
+  order: 2;
+  flex: 2;
+  flex-flow: column;
+}
+
+header p:nth-child(3){
+  font-family: 'Advent Pro', sans-serif;
+  color: grey;
+  font-size: thin;
+  font-size: xx-small;
+  margin-left: 50px;
+  order: 3;
+  flex: 2;
+  flex-flow: column;
+}
+
+header ul li{
+  float: right;
+  /* flex-direction: row; */
+  /* flex-direction: column-reverse; */
+  /* display: inline; */
+  outline: dotted 5px blue;
+  /* display: inline-block; */
+}
+header ul li:nth-child(7){
+  margin-left: 2px;
+  outline: red 2px solid;
+}
+
+/* Main section */
+main h1{
+  font-family: 'Anton', sans-serif;
+}
+
+main p:nth-child(1){
+  font-family: 'Advent Pro', sans-serif;
+  color: grey;
+  font-size: thin;
+  font-size: xx-small;
+  outline: blue 2 dotted;
+}
+
+
+#columnOne {
+  /* position: relative; */
+  outline: 3px blue dashed;
+  top: 20px;
+  background: transparent;
+  float: left;
+  
+}
+
+#columnTwo {
+  /* position: relative; */
+  outline: violet 3px dashed;
+  top: 20px;
+  float: right;
+  
+
+}
